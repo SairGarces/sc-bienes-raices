@@ -499,3 +499,30 @@ input[type="submit"]:hover {
     color: #fff;
     text-decoration: none;
 }
+.cards_blog {
+    /* height: 20rem; */
+}
+.card_tips {
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 0px 4px 7px 6px rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    display: flex;
+    /* justify-content: center; */
+    height: 50rem;
+}
+.card_tips img {
+    width: 40%;
+    /* height: 50rem; */
+    margin-right: 2rem;
+}
+.textos-cards p {
+    line-height: 1.25;
+    height: 6rem;
+    /* display: block; */
+    
+}
+.textos-cards, h3,  h4 {
+    height: .5rem;
+    color: #213d9c;
+}

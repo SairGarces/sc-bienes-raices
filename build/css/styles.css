@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.header {
+    background-color: rgb(16, 70, 117);
+    box-shadow: 0px 4px 7px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* globales */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    /* font-family: $fuente_principal; */
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #000;
+    font-size: 2rem;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture {
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    /* font-family: $fuente_principal; */
+    /* margin: $separacion / 2 0; */
+    font-weight: 300;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+/* #B87A3F */
+.copyright {
+    color: #fff;
+    text-align: center;
+}
+
+.seccion h1 {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(16, 70, 117);
+    padding: 2rem;
+    box-shadow: 0px -4px 7px 6px rgba(0, 0, 0, 0.20);
+}
+
+.navegacion a {
+    /* background-color: #fff; */
+    color: #ffffff;
+    text-align: end;
+    padding: 1rem;
+    font-size: 2rem;
+    margin: .5rem;
+    font-weight: 300;
+}
+
+.navegacion a:hover,
+.navegacion a:active,
+.navegacion a:focus {
+    background-color: #fff;
+    color: rgb(16, 70, 117);
+    border-radius: .5rem;
+
+}
+
+/* .mititulo {
+    color: red;
+} */
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra a img {
+    width: 8rem;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+.incon_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+/* footer {
+    background-color: rgb(16, 70, 117);
+    padding: 1rem;
+
+} */
+.entradas_index {
+    margin-top: 10rem;
+}
+
+.entradas_indexs {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 2rem 0;
+}
+
+.entradas_indexs p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.entradas_indexs img {
+    width: 40%;
+    /* border-radius: .5rem; */
+    display: block;
+    margin: 0 auto;
+}
+
+.searching {
+    text-align: center;
+    box-shadow: 0px 4px 7px 6px rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.texto_search {
+    text-align: center;
+}
+
+.inputs_select {
+    margin: 1rem;
+}
+
+.tipo_inmueble,
+.ubicacion,
+.city {
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    gap: 1rem;
+    margin: 0 2rem;
+    outline: none;
+    border: 1px solid #6969699d;
+}
+
+.city {
+    width: 30rem;
+    outline: none;
+    border: 1px solid #6969699d;
+}
+
+.button_search {
+    background-color: rgb(16, 70, 117);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .8rem;
+}
+
+.button_search:hover {
+    background-color: #DA7617;
+
+}
+
+.clases {
+    display: flex;
+    justify-content: center;
+}
+
+.icons p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 10px 0;
+}
+
+.image_propie {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.title_card {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.description {
+    margin-top: 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+.contactar {
+    display: block;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 10px 10px 10px;
+}
+
+.cartas_cards .card {
+    padding-left: 10px;
+    margin-left: 15px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.cartas_cards {
+    /* padding-left: 50px; */
+    text-align: center;
+}
+
+.Sub_tittle {
+    text-align: left !important;
+    font-weight: 700;
+}
+
+.nosotros_1 {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin: 2rem; */
+}
+
+.texto_nosotros {
+    margin: 0 2rem 0 0;
+}
+
+.texto_mision {
+    margin: 0 0 0 2rem;
+}
+
+.Image_mision img {
+    border-radius: .5rem;
+    box-shadow: 0px 4px 7px 6px rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: 100%;
+    /* margin-right: 20rem; */
+}
+
+.Image_mision {
+    margin-right: 2rem;
+}
+
+.image_logo img {
+    border-radius: .5rem;
+    box-shadow: 0px 4px 7px 6px rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.mision {
+    margin-top: 10rem;
+}
+
+.Sub_tittle2 {
+    text-align: center !important;
+    font-weight: 700;
+}
+
+.maps {
+    margin-bottom: 5rem;
+}
+
+.map-responsive {
+    text-align: center;
+    margin: 2rem;
+    box-shadow: 0px 4px 7px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .map-responsive {
+        width: auto;
+    }
+}
+
+/* contacto */
+label {
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para los campos y etiquetas */
+.formulario_con label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+/* @media (max-width: 768px) {
+    input
+    textarea {
+        width: auto;
+    }
+} */
+@media (max-width: 450px) {
+    input
+    textarea {
+        width: 100%;
+    }
+}
+
+input,
+textarea {
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid #6969699d;
+    outline: none;
+}
+
+label {
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    width: 10rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+    background: rgb(16, 70, 117);
+    color: #fff;
+    border: none;
+    padding: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+input[type="submit"]:hover {
+    background: #DA7617;
+}
+
+.formulario_con {
+    width: 60rem
+}
+
+.redes_sociales {
+    display: flex;
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+/* .redes_sociales img {
+    width: 7rem;
+    margin: 1rem;
+    transition: transform 0.3s;
+} */
+
+/* .redes_sociales:hover img {
+    transform: scale(1.1); */
+    /* Escala la imagen en un 10% al pasar el cursor */
+/* } */
+.red-social {
+    position: relative;
+    /* width: 100px; Ajusta el ancho y alto según tus necesidades  */
+    /* height: 100px; */
+    /* margin: 10px; */
+    overflow: hidden;
+    transition: transform 0.3s; /* Duración de la animación al pasar el cursor */
+}
+
+.red-social img {
+    margin: 1rem;
+    margin-bottom: 2rem;
+    width: 7rem;
+    /* height: 100%; */
+}
+.red-social:hover {
+    transform: scale(1.3); /* Escala el contenedor en un 10% al pasar el cursor */
+}
+/* Cambiar el diseño en pantallas más pequeñas */
+/* @media (max-width: 768px) {
+    .redes_sociales {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .red-social {
+        margin: 10px 0;
+        text-align: center;
+        justify-content: center;
+    }
+} */
+.verMas {
+
+}
+.buttonVerMas {
+    color: #fff;
+    text-decoration: none;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    background-color: rgb(16, 70, 117);
+    text-align: center;
+    margin: 2rem 0;
+}
+.buttonVerMas:hover {
+    background-color: #DA7617;
+}
+.buttonVerMas a {
+    width: 2rem;
+    color: #fff;
+    text-decoration: none;
+}

@@ -19,4 +19,13 @@ function conectarDB() : PDO {
     $db = new PDO('mysql:host=localhost;dbname=bienesraices', 'root', 'root');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $db;
-}
+} 
+
+// Este es un comentario de prueba
+
+
+
+
+
+
+// gd bdg dggd iwpd hswq w

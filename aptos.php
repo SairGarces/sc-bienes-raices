@@ -3,16 +3,10 @@
 ?>
 
     <main class="contenedor seccion">
-        <h1>Titulo Página aptos</h1>
+        <h1>Casas y apartamentos</h1>
     </main>
     <?php
-    include 'cards.php'
+    include 'cards.php';
+    include 'cards2.php';
+    include 'footer.php'
     ?>
-    
-    <?php
-    include 'cards2.php'
-    ?>
-
-<?php
- include 'footer.php'
-?>

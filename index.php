@@ -23,7 +23,7 @@ include 'header.php'
                 <option value="playa">Playa</option>
                 <option value="montaña">Montaña</option>
             </select>
-            <input type="text" class="city" id="precio" placeholder="Ciudad, barrio o citio de interes">
+            <!-- <input type="text" class="city" id="precio" placeholder="Ciudad, barrio o citio de interes"> -->
             <button class="button_search">Buscar</button>
         </div>
     </div>
@@ -34,9 +34,13 @@ include 'header.php'
     ?>
 </section>
 <div class="contenedor">
-    <div class="buttonVerMas">
-        <a class="verMas" href="aptos.php">Ver más...</a>
-    </div>
+    <!-- <div class="buttonVerMas"> -->
+        <!-- <a style="width: 5rem;" class="verMas" href="aptos.php">Ver más...</a> -->
+    <!-- </div> -->
+    <a href="aptos.php">
+
+        <button class="buton_ver buttonVerMas">Ver mas</button>
+    </a>
 </div>
 
 <?php

@@ -86,6 +86,7 @@ h4 {
     background-color: rgb(16, 70, 117);
     padding: 2rem;
     box-shadow: 0px -4px 7px 6px rgba(0, 0, 0, 0.20);
+    text-align: center;
 }
 
 .navegacion a {
@@ -480,7 +481,7 @@ input[type="submit"]:hover {
     }
 } */
 .verMas {
-
+    width: 5rem;
 }
 .buttonVerMas {
     color: #fff;

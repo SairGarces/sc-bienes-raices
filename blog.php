@@ -16,6 +16,8 @@ include 'header.php'
 
 </section>
 
+<!-- este es un comentario de prueba den blog -->
+
 <?php
 include 'footer.php'
 ?>
